@@ -2,4 +2,21 @@
 	html,body{
 		color:#FF0000;
 	}
+
+	.container{
+		width:350px;
+		margin:0 auto;
+	}
+
+	/* BACKGROUND */
+	.bg-black{
+		background:#000000;
+		color:#FFFFFF;
+	}
+
+	/* TEXT ALIGN */
+	.txt-l{text-align:left;}
+	.txt-r{text-align:right;}
+	.txt-c{text-align:center;}
+	.txt-j{text-align:justify;}
 }
