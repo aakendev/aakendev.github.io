@@ -1,0 +1,31 @@
+/* FONTS */
+@font-face{
+	font-family:codec-reg;
+	src:url('../fonts/codec-reg.ttf');
+}
+@font-face{
+	font-family:lgcafe-reg;
+	src:url('../fonts/lgcafe-reg.ttf');
+}
+@font-face{
+	font-family:linlib-reg;
+	src:url('../fonts/linlib-reg.ttf');
+}
+@font-face{
+	font-family:roboto-reg;
+	src:url('../fonts/roboto-reg.ttf');
+}
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+html,body{
+	background:#FFFFFF;
+}
+body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
