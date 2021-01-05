@@ -1,22 +1,13 @@
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
 	html,body{
 		color:#FF0000;
 	}
+  div{
+    padding:5px 2.5px;
+  }
 
 	.container{
-		width:350px;
+		width:370px;
 		margin:0 auto;
 	}
-
-	/* BACKGROUND */
-	.bg-black{
-		background:#000000;
-		color:#FFFFFF;
-	}
-
-	/* TEXT ALIGN */
-	.txt-l{text-align:left;}
-	.txt-r{text-align:right;}
-	.txt-c{text-align:center;}
-	.txt-j{text-align:justify;}
 }
