@@ -2,12 +2,54 @@
 	html,body{
 		color:#FF0000;
 	}
-  div{
-    padding:5px 2.5px;
-  }
 
 	.container{
 		width:370px;
 		margin:0 auto;
 	}
+  .d-pad{
+    padding:5px 2.5px;
+  }
+
+  /* FONT SIZE */
+  .font-sm{font-size:12px;}
+  .font-md{font-size:16px;}
+  .font-nm{font-size:20px;}
+  .font-lg{font-size:24px;}
+  .font-xl{font-size:36px;}
+
+  /* DIV HEIGHT */
+  .d-h1{height:50px;}
+  .d-h2{height:100px;}
+  .d-h3{height:150px;}
+  .d-h4{height:200px;}
+  .d-h5{height:250px;}
+  .d-h6{height:300px;}
+  .d-h7{height:350px;}
+  .d-h8{height:400px;}
+  .d-h9{height:450px;}
+  .d-h10{height:500px;}
+
+  /* LINE HEIGHT */
+  .l-h1{line-height:50px;}
+  .l-h2{line-height:100px;}
+  .l-h3{line-height:150px;}
+  .l-h4{line-height:200px;}
+  .l-h5{line-height:250px;}
+  .l-h6{line-height:300px;}
+  .l-h7{line-height:350px;}
+  .l-h8{line-height:400px;}
+  .l-h9{line-height:450px;}
+  .l-h10{line-height:500px;}
+
+  /* DROPDOWN MENU */
+  #menu-dd .column div{
+    height:50px;
+  }
+  #menu-dd a{
+    border-bottom:4px solid var(--blue);
+    font-size:20px;
+    line-height:50px;
+    padding:0 10px;
+  }
 }
