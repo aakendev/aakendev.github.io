@@ -1,7 +1,4 @@
 @media screen and (max-width:400px){
-	html,body{
-		color:#FF0000;
-	}
 
 	.container{
 		width:370px;
@@ -43,6 +40,15 @@
   .l-h10{line-height:500px;}
 
   /* DROPDOWN MENU */
+  #menu-bg{
+    top:60px;
+  }
+  #menu-dd{
+    top:160px;
+  }
+  #menu-dd .column{
+    max-height:250px;
+  }
   #menu-dd .column div{
     height:50px;
   }
@@ -52,4 +58,20 @@
     line-height:50px;
     padding:0 10px;
   }
+
+  /* CONTENT */
+  .content{
+    margin-top:180px;
+  }
+  .content p{
+    margin:5px 10px;
+  }
+
+  /* FOOTER REMARK */
+  .footer-mark a{
+    font-size:16px;
+    padding:5px;
+    border-radius:5px;
+  }
+
 }

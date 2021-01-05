@@ -4,10 +4,10 @@ const menuDD = document.querySelector("#menu-dd");
 /* DROPDOWN FUNCTIONS */
 btnDD.onclick = () => {
     if(menuDD.style.maxHeight){
-        btnDD.className = "fas fa-folder flex-2 txt-c l-h2";
+        btnDD.classList.replace("fa-folder-open", "fa-folder");
         menuDD.style.maxHeight = null;
     }else{
-        btnDD.className = "fas fa-folder-open flex-2 txt-c l-h2";
-        menuDD.style.maxHeight = "1000px";
+        btnDD.classList.replace("fa-folder","fa-folder-open");
+        menuDD.style.maxHeight = "250px";
     }
 }
