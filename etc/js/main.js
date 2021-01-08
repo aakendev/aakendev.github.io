@@ -3,11 +3,11 @@ const menuDD = document.querySelector("#menu-dd");
 
 /* DROPDOWN FUNCTIONS */
 btnDD.onclick = () => {
-    if(menuDD.style.maxHeight){
+    if(menuDD.className !== "bg-green"){
         btnDD.classList.replace("fa-folder-open", "fa-folder");
-        menuDD.style.maxHeight = null;
+        menuDD.classList.remove("mh-dd");
     }else{
         btnDD.classList.replace("fa-folder","fa-folder-open");
-        menuDD.style.maxHeight = "250px";
+        menuDD.classList.add("mh-dd");
     }
 }

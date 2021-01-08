@@ -86,14 +86,7 @@ a{
 .flex-9{width:90%;}
 .flex-10{width:100%;}
 
-/* TOP TITLE */
-#top-title{
-  position:fixed;
-  z-index:998;
-  top:0;
-}
-
-/* DROPDOWN */
+/* TOP DROPDOWN */
 #menu-bg{
   position:fixed;
   z-index:998;
