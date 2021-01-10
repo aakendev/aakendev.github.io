@@ -157,6 +157,7 @@
     font-size: 16px;
     width: 50%;
   }
+<<<<<<< HEAD
   .content code pre {
     border-left: 5px solid var(--black);
     border-top: 1px solid var(--black);
@@ -165,6 +166,14 @@
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+=======
+  .content p{
+    margin:15px 10px;
+    padding:5px;
+    border:2px solid #0266EA;
+    border-radius:5px;
+    box-shadow:0 0 5px 2.5px #F9BA02;
+>>>>>>> 70fecaddf47d074b60b7de36d028a1bba82c9667
   }
 
   /* FOOTER REMARK */
