@@ -1,6 +1,10 @@
 @media screen and (max-width:400px) {
 
   /* ELEMENT TAG */
+  body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   h1 {
     font-size: 36px;
   }
@@ -116,27 +120,33 @@
     line-height: 50px;
     padding: 0 10px;
   }
+  #menu-dd a span {
+    font-size: 40px;
+    line-height: 50px;
+  }
   .mh-dd {
     max-height: 250px !important;
   }
 
   /* CONTENT */
   .content {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: justify;
   }
-  .content h1 {
+  .content .container .column > h1 {
     border-bottom: 10px solid var(--black);
     padding-bottom: 2.5px;
     margin: 5px auto;
     width: 80%;
   }
-  .content h2 {
+  .content .container .column > h2 {
     border-radius: 0;
     margin: 10px 0;
     padding: 5px 10px;
   }
-  .content p {
+  .content .container .column > p {
     margin: 5px 10px;
     padding: 5px;
     border: 2px solid var(--blue);
@@ -144,20 +154,20 @@
     box-shadow: 0 0 2.5px 2px var(--yellow);
     line-height: 25px;
   }
-  .content span {
+  .content .container .column > p > span {
     padding: 2.5px;
   }
-  .content code {
+  .content .container .column > code {
     margin: 15px 10px;
     padding: 5px;
   }
-  .content code p {
+  .content .container .column > code > p {
     padding: 2.5px 5px;
     margin-bottom: 5px;
     font-size: 16px;
     width: 50%;
   }
-  .content code pre {
+  .content .container .column > code > pre {
     border-left: 5px solid var(--black);
     border-top: 1px solid var(--black);
     border-bottom: 1px solid var(--black);
@@ -165,6 +175,27 @@
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  /* RESULT */
+  .result {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    padding: 0;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+  }
+  .result div:nth-child(1) {
+    background: var(--black);
+    color: var(--white);
+    height: 25px;
+  }
+  .result div:nth-child(1) > span {
+    margin-left: 10px;
+  }
+  .result div {
+    padding: 5px;
   }
 
   /* FOOTER REMARK */

@@ -169,30 +169,34 @@ a {
   color: var(--white);
   font-weight: bold;
 }
+#menu-dd a span {
+  float: right;
+  display: block;
+}
 
 /* CONTENT */
-.content span {
+.content .container .column > span {
   background: var(--red);
   color: var(--yellow);
   font-weight: bold;
   font-family: codec-reg;
 }
-.content h1, .content h2 {
+.content .container .column > h1, .content .container .column > h2 {
   font-family: roboto-reg;
 }
-.content h1 {
+.content .container .column > h1 {
   text-align: center;
 }
-.content h2 {
+.content .container .column > h2 {
   text-align: left;
   background: var(--blue);
   color: var(--white);
   width: 50%;
 }
-.content code {
+.content .container .column > code {
   font-family: codec-reg;
 }
-.content code p {
+.content .container .column > code > p {
   background: var(--green);
   color: var(--white);
   font-weight: bold;
@@ -203,12 +207,20 @@ a {
   text-align: center;
   margin: 0 auto;
 }
-.content code pre {
+.content .container .column > code > pre {
   text-align: left;
   font-family: codec-reg;
   width: 100%;
   overflow: auto;
   margin: 0 auto;
+}
+
+/* RESULT */
+.result div {
+  overflow: auto;
+}
+.result div:nth-child(1) > span {
+  float: right;
 }
 
 /* FOOTER REMARK */
